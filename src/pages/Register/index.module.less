@@ -1,0 +1,39 @@
+@import '~antd/es/style/themes/default.less';
+
+
+.registerContainer{
+    background-image:url('http://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center 110px;
+    height:100%;
+    .register{
+        padding-top:200px;
+        width:368px;
+        margin:0 auto;
+    }
+    .login{
+        float: right;
+    }
+}
+
+.success{
+    color:@success-color
+}
+
+.warning{
+    color:@warning-color
+}
+
+.error{
+    transition: color 0.3s;
+    color:@error-color
+}
+
+.progress-pass > .progress{
+    :global{
+        .ant-progress-bg{
+            background-color:@warning-color;
+        }
+    }
+}
